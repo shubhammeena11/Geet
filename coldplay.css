@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    background-color: rgb(10, 10, 50);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    vertical-align: middle;
+    height: 50px;
+    background-color: rgb(10, 10, 50);
+    /* border-bottom: 3px solid white; */
+    margin: 0px 50px;
+    position: fixed;
+    width: 92.3%;
+    top: 0%;
+}
+
+header div {
+    display: flex;
+    margin: 0px 25px;
+}
+
+header div div {
+    display: flex;
+}

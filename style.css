@@ -1,0 +1,290 @@
+/* .scrollable-content::-webkit-scrollbar {
+    display: none;
+  } */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: "Poppins", sans-serif;
+
+}
+
+body {
+    background-color: rgb(10, 10, 50);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    vertical-align: middle;
+    height: 50px;
+    background-color: rgb(10, 10, 50);
+    /* border-bottom: 3px solid white; */
+    margin: 0px 50px;
+    position: fixed;
+    width: 92.3%;
+    top: 0%;
+}
+
+header div {
+    display: flex;
+    margin: 0px 25px;
+}
+
+header div div {
+    display: flex;
+}
+
+section {
+    display: flex;
+}
+
+#main {
+    margin: 50px 5px 25px 50px;
+    /* border-top: 3px solid white; */
+    width: 68%;
+    height: 500px;
+    overflow: scroll;
+}
+#main::-webkit-scrollbar {
+    display: none;
+}
+
+#sidebar {
+    padding-top: 62px;
+    margin: 0px 50px 25px 10px;
+    /* border-top: 3px solid white; */
+    width: 23%;
+    height: 550px;
+    overflow: scroll;
+}
+#sidebar::-webkit-scrollbar {
+    display: none;
+} 
+
+
+#b3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#b3 div {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 300px;
+    width: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition-duration: 0.3s;
+}
+
+#b3 div p {
+    font-size: 0px;
+}
+
+#b3:has(.i1:hover) .p1 {
+    font-size: 30px;
+}
+
+#b3:has(.i2:hover) .p2 {
+    font-size: 30px;
+}
+
+#b3:has(.i3:hover) .p3 {
+    font-size: 30px;
+}
+
+body:has(.i1:hover) .i2 {
+    transform: scale(0.95);
+    opacity: 0.5;
+}
+
+body:has(.i1:hover) .i3 {
+    transform: scale(0.95);
+    opacity: 0.5;
+}
+
+body:has(.i2:hover) .i1 {
+    transform: scale(0.95);
+    opacity: 0.5;
+}
+
+body:has(.i2:hover) .i3 {
+    transform: scale(0.95);
+    opacity: 0.5;
+}
+
+body:has(.i3:hover) .i1 {
+    transform: scale(0.95);
+    opacity: 0.5;
+}
+
+body:has(.i3:hover) .i2 {
+    transform: scale(0.95);
+    opacity: 0.5;
+}
+
+#onsim {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+#onsim>div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 25px;
+}
+
+.io {
+    height: 85px;
+    width: 85px;
+    margin-right: 18px;
+    background-image: url(./media/onism.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: inline-block;
+}
+
+.iot {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.time {
+    margin-left: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50px;
+    justify-content: space-between;
+}
+
+#inpa {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 20px;
+}
+
+#inpa div {
+    height: 75px;
+    width: 75px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100px;
+}
+
+#pb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 0px;
+    text-decoration: none;
+    color: rgb(174, 174, 174);
+}
+
+#inpa:has(.s1:hover) .playbutton1 {
+    font-size: 20px;
+}
+
+#inpa:has(.s2:hover) .playbutton2 {
+    font-size: 20px;
+}
+
+#inpa:has(.s3:hover) .playbutton3 {
+    font-size: 20px;
+}
+
+#inpa:has(.s4:hover) .playbutton4 {
+    font-size: 20px;
+}
+
+#inpa:has(.s5:hover) .playbutton5 {
+    font-size: 20px;
+}
+
+#inpa:has(.s6:hover) .playbutton6 {
+    font-size: 20px;
+}
+
+
+#bb3 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+#bb3>div {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    height: 180px;
+    width: 280px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition-duration: 0.3s;
+}
+
+#bb3 div p {
+    font-weight: 500;
+    font-size: 30px;
+}
+
+#bb3>div:hover {
+    background-size: 120% 120%;
+}
+
+/* onsim2 */
+
+#onsim2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+#onsim2>div {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 20px;
+}
+
+.io2 {
+    height: 85px;
+    width: 85px;
+    margin-bottom: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+}
+#queuelist > div{
+    background-color: #1e222e98;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.ql{
+    display: flex;
+    align-items: center;
+    width: 280px;
+}
